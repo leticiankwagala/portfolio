@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leticia | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar bounce-in">
+        <div class="logo">LN<span class="dot">.</span></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i> </label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h2>Hello, I'm Leticia</h2>
+                <h3>A Front<span>End</span> Developer & UI Designer</h3>
+                <p>Turning complex problems into elegant, minimalist and fun digital solutions.</p>
+                <a href="#contact" class="cta-button elastic-hover">Get In Touch!</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper-playful">
+                    <img src="assets/lety.PNG" alt="Leticia">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about playful-blob-bg">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <p class="about-text">
+                I am a <strong>Frontend Developer & UI Designer</strong> based in Uganda, specializing in creating
+                minimalist, high-performance web solutions. I bridge the gap between complex logic and elegant
+                user experience.
+            </p>
+
+            <div class="about-extras">
+                <div class="extra-item">
+                    <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <p>Based in Bweyogerere, UG</p>
+                </div>
+
+                <div class="extra-item">
+                    <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                    <p>BSc. Business Computing</p>
+                </div>
+
+                <div class="extra-item">
+                    <svg class="about-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.42 1.22-1.07 1.48-1.82L15 11l-4-4-6.68 6.02c-.75.26-1.4.77-1.82 1.48z">
+                        </path>
+                        <path d="M12 5l7-2 2 2-2 7-5-5z"></path>
+                        <path d="M9 15l3 3"></path>
+                        <path d="M11 13l3 3"></path>
+                    </svg>
+                    <p>UI/UX & Frontend</p>
+                </div>
+            </div>
+
+            <a href="https://docs.google.com/document/d/1aQ2ciECLe6wEnsYoEbbZVPD6uPL9Nry5/edit"
+                class="cta-button elastic-hover" target="_blank" rel="noopener noreferrer">View CV</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Core Skills</h2>
+        <div class="grid">
+            <div class="card-playful">
+                <div class="skill-icon">
+                    <svg class="icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 16L1 9L12 2L23 9L12 16ZM12 18.5L21 12.8V15L12 21L3 15V12.8L12 18.5Z" />
+                    </svg>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Creating clean, modern interfaces with a focus on user journey, glassmorphism, and accessibility.</p>
+            </div>
+
+            <div class="card-playful">
+                <div class="skill-icon">
+                    <svg class="icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.89 3L14.85 3.4L11.11 21L9.15 20.6L12.89 3M19.59 12L16 8.41V5.58L22.42 12L16 18.41V15.58L19.59 12M1.58 12L8 5.58V8.41L4.41 12L8 15.58V18.41L1.58 12Z" />
+                    </svg>
+                </div>
+                <h3>Web Development</h3>
+                <p>Building responsive, high-performance websites using modern tools like Next.js and Tailwind CSS.</p>
+            </div>
+
+            <div class="card-playful">
+                <div class="skill-icon">
+                    <svg class="icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 4H4C2.89 4 2 4.9 2 6V18C2 19.1 2.89 20 4 20H20C21.11 20 22 19.1 22 18V6C22 4.9 21.11 4 20 4ZM20 18H4V8H20V18ZM18 10H6V12H18V10ZM18 14H6V16H18V14Z" />
+                    </svg>
+                </div>
+                <h3>System Development</h3>
+                <p>Architecting robust logic and managing data flows to build functional, automated business systems.
+                </p>
+            </div>
+
+            <div class="card-playful">
+                <div class="skill-icon">
+                    <svg class="icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 1L14.39 8.26H22L15.81 12.75L18.19 20L12 15.5L5.81 20L8.19 12.75L2 8.26H9.61L12 1Z" />
+                    </svg>
+                </div>
+                <h3>Brand Identity & Digital Lead</h3>
+                <p>Crafting cohesive visual identities and digital strategies that help organizations stand out and
+                    connect with their community.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="stack" class="my-stack">
+        <h2 class="section-title">My Stack</h2>
+        <ul class="tech-tags-playful">
+            <li><img src="https://cdn.simpleicons.org/html5/E34F26" alt=""> HTML</li>
+            <li>
+                <svg class="tech-stack-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-9.64l.213 2.622h9.162l-.716 8.047-5.54 1.516-5.544-1.516-.36-4.01h-2.622l.488 6.537L12 22.188l7.034-1.922L18.59 4.413z"
+                        fill="#1572B6" />
+                </svg>
+                CSS
+            </li>
+            <li><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt=""> JavaScript</li>
+            <li><img src="https://cdn.simpleicons.org/nextdotjs/000000" alt=""> Next.js</li>
+            <li><img src="https://cdn.simpleicons.org/react/61DAFB" alt=""> React</li>
+            <li><img src="https://cdn.simpleicons.org/typescript/3178C6" alt=""> TypeScript</li>
+            <li><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt=""> Tailwind CSS</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects playful-blob-bg">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="grid">
+            <div class="card-playful">
+                <h3>Task Manager</h3>
+                <div class="project-image">
+                    <img src="assets/task.png" alt="Vision Group Dashboard">
+                </div>
+                <p>A simple task management web system built with HTML, CSS and JavaScript.</p>
+                <div class="project-btns">
+                    <a href="https://taskmanager-d5n3.onrender.com/login.html" class="btn-small main"
+                        target="_blank">Live Demo</a>
+                    <a href="#" class="btn-small outline" target="_blank">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.63-.33 2.47-.33.83 0 1.67.11 2.47.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-playful">
+                <h3>Calculator</h3>
+                <div class="project-image">
+                    <img src="assets/calc.png" alt="Vision Group Dashboard">
+                </div>
+                <p>A functional web Calculator built with HTML, CSS and JavaScript.</p>
+                <div class="project-btns">
+                    <a href="#" class="btn-small main" target="_blank">Live Demo</a>
+                    <a href="#" class="btn-small outline" target="_blank">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.63-.33 2.47-.33.83 0 1.67.11 2.47.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="card-playful">
+                <h3>Vision Group Analytics Dashboard</h3>
+                <div class="project-image">
+                    <img src="assets/vision.png" alt="Vision Group Dashboard">
+                </div>
+                <p>A centralized, AI-powered, web-based analytics dashboard.</p>
+                <div class="project-btns">
+                    <a href="#" class="btn-small main" target="_blank">Live Demo</a>
+                    <a href="#" class="btn-small outline" target="_blank">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.63-.33 2.47-.33.83 0 1.67.11 2.47.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="card-playful">
+                <h3>E-commerce Platform</h3>
+                <div class="project-image">
+                    <img src="assets/clothes.png" alt="Vision Group Dashboard">
+                </div>
+                <p>UI/UX design for a high-end fashion e-commerce application focusing on user flow and visual
+                    consistency.</p>
+                <div class="project-btns">
+                    <a href="https://drive.google.com/file/d/1e12JLsOCnm9bMoxFuMcK4L0DXyqMyDWk/view"
+                        class="btn-small main" target="_blank">Live Demo</a>
+                    <a href="#" class="btn-small outline" target="_blank">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.63-.33 2.47-.33.83 0 1.67.11 2.47.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-box-playful">
+            <div class="availability-badge">
+                <span class="dot-blink"></span> Open to Remote & Physical Roles
+            </div>
+
+            <h2>Let's build something great!</h2>
+
+            <div class="contact-grid">
+                <a href="mailto:leticiakwagala@gmail.com" class="contact-item">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                    <span>Email</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/leticia-kwagala-nabbosa-35b5b7276/" target="_blank"
+                    class="contact-item">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a2.7 2.7 0 0 0-2.7-2.7c-1.2 0-2.3.7-2.7 1.8v-1.5H10.6v7.7H13.1v-4.1c0-.7.6-1.3 1.3-1.3s1.3.6 1.3 1.3v4.1h2.5M6.4 8.6c.8 0 1.5-.7 1.5-1.5S7.2 5.6 6.4 5.6s-1.5.7-1.5 1.5.7 1.5 1.5 1.5m1.2 9.9V10.8H5.2v7.7h2.4z" />
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/leticiankwagala" target="_blank" class="contact-item">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.63-.33 2.47-.33.83 0 1.67.11 2.47.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+
+                <a href="tel:+256787774915" class="contact-item">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                    </svg>
+                    <span>Call Me</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Leticia Kwagala Nabbosa. All rights reserved.</p>
+    </footer>
+
+</body>
+<script>
+    const mobileBtn = document.getElementById('mobile-cta');
+    const navMenu = document.getElementById('nav-menu');
+    const navLinks = document.querySelectorAll('.navbar a');
+
+    mobileBtn.addEventListener('click', () => {
+        mobileBtn.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileBtn.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+</script>
+
+</html>
