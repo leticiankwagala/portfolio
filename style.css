@@ -794,3 +794,30 @@ footer {
     }
 }
 
+.view-more-container {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-large {
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 32px;
+    background: var(--accent); 
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 20px rgba(108, 92, 231, 0.2);
+}
+
+.btn-large:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(108, 92, 231, 0.4);
+    background: var(--accent-dark);
+}
+
+    
