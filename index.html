@@ -35,7 +35,7 @@
             <div class="hero-text">
                 <h2>Hello, I'm Leticia</h2>
                 <h3>A Jun<span>ior</span> Developer</h3>
-                <p>Turning complex problems into elegant, minimalist and fun digital solutions.</p>
+                <p id="heroSubtitle" class="typing-text"></p>
                 <a href="#contact" class="cta-button elastic-hover">Get In Touch!</a>
             </div>
             <div class="hero-image">
@@ -350,6 +350,26 @@
                 navMenu.classList.remove('active');
             });
         });
+    }
+
+    const heroSubtitle = document.getElementById('heroSubtitle');
+    if (heroSubtitle) {
+        const text = "Turning complex problems into elegant, minimalist and fun digital solutions.";
+        let index = 0;
+
+        heroSubtitle.textContent = '';
+
+        const typeText = () => {
+            if (index < text.length) {
+                heroSubtitle.textContent += text.charAt(index);
+                index++;
+                setTimeout(typeText, 45);
+            } else {
+                heroSubtitle.classList.add('typing-done');
+            }
+        };
+
+        setTimeout(typeText, 300);
     }
 </script>
 
